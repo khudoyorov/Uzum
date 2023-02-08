@@ -2,9 +2,8 @@ package nt.bek.uzumnt.dto;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.stereotype.Component;
 
-import java.util.Date;
+import java.sql.Date;
 
 @Getter@Setter
 public class UsersDTO {
@@ -12,7 +11,7 @@ public class UsersDTO {
     private String FirstName;
     private String LastName;
     private String MiddleName;
-    private String  birthDate;
+    private Date birthDate;
     private String email;
     private String gender;
     private String phoneNumber;
